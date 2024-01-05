@@ -24,7 +24,7 @@ export function useYjsStore({
   roomId = "example",
   hostUrl = import.meta.env.MODE === "development"
     ? "ws://localhost:1234"
-    : "wss://y-websocket-production.up.railway.app:6788",
+    : "wss://craft-yjs-test.up.railway.app",
   shapeUtils = [],
 }: Partial<{
   hostUrl: string;
