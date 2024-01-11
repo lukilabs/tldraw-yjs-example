@@ -8,7 +8,7 @@ const HOST_URL =
     : "wss://craft-yjs-test.up.railway.app";
 
 export default function YjsExample() {
-  const canvasId = window.location.pathname.split("/")[1] || "example17";
+  const canvasId = window.location.pathname.split("/")[0] || "example17";
 
   const store = useYjsStore({
     roomId: canvasId,
