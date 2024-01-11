@@ -8,8 +8,10 @@ const HOST_URL =
     : "wss://craft-yjs-test.up.railway.app";
 
 export default function YjsExample() {
+  const canvasId = window.location.pathname.split("/")[1] || "default";
+
   const store = useYjsStore({
-    roomId: "example17",
+    roomId: canvasId,
     hostUrl: HOST_URL,
   });
 
@@ -21,25 +23,23 @@ export default function YjsExample() {
 }
 
 const NameEditor = track(() => {
-  const editor = useEditor();
-
-  const { color, name } = editor.user;
+  const { user } = useEditor();
 
   return (
     <div style={{ pointerEvents: "all", display: "flex" }}>
       <input
         type="color"
-        value={color}
+        value={user.getColor()}
         onChange={(e) => {
-          editor.user.updateUserPreferences({
+          user.updateUserPreferences({
             color: e.currentTarget.value,
           });
         }}
       />
       <input
-        value={name}
+        value={user.getName()}
         onChange={(e) => {
-          editor.user.updateUserPreferences({
+          user.updateUserPreferences({
             name: e.currentTarget.value,
           });
         }}
