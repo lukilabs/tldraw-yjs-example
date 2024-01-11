@@ -4,11 +4,11 @@ import { useYjsStore } from "./useYjsStore";
 
 const HOST_URL =
   import.meta.env.MODE === "development"
-    ? "ws://localhost:1234"
+    ? "wss://craft-yjs-test.up.railway.app"
     : "wss://craft-yjs-test.up.railway.app";
 
 export default function YjsExample() {
-  const canvasId = window.location.pathname.split("/")[0] || "example17";
+  const canvasId = window.location.pathname.split("/")[1] || "default";
 
   const store = useYjsStore({
     roomId: canvasId,
