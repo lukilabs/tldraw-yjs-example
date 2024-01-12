@@ -2,17 +2,15 @@ import { Tldraw, track, useEditor } from "@tldraw/tldraw";
 import "@tldraw/tldraw/tldraw.css";
 import { useYjsStore } from "./useYjsStore";
 
-const HOST_URL =
-  import.meta.env.MODE === "development"
-    ? "ws://localhost:1234"
-    : "wss://craft-yjs-test.up.railway.app";
-
 export default function YjsExample() {
   const canvasId = window.location.pathname.split("/")[1] || "default";
 
   const store = useYjsStore({
     roomId: canvasId,
-    hostUrl: HOST_URL,
+    hostUrl:
+      import.meta.env.MODE === "development"
+        ? "ws://localhost:1234"
+        : "wss://craft-yjs-test.up.railway.app",
   });
 
   return (

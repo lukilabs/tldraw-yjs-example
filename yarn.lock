@@ -1011,9 +1011,9 @@
     "@tldraw/utils" "2.0.0-beta.2"
 
 "@types/core-js@^2.5.5":
-  version "2.5.5"
-  resolved "https://registry.yarnpkg.com/@types/core-js/-/core-js-2.5.5.tgz#dc5a013ee0b23bd5ac126403854fadabb4f24f75"
-  integrity sha512-C4vwOHrhsvxn7UFyk4NDQNUpgNKdWsT/bL39UWyD75KSEOObZSKa9mYDOCM5FGeJG2qtbG0XiEbUKND2+j0WOg==
+  version "2.5.8"
+  resolved "https://registry.yarnpkg.com/@types/core-js/-/core-js-2.5.8.tgz#d5c6ec44f2f3328653dce385ae586bd8261f8e85"
+  integrity sha512-VgnAj6tIAhJhZdJ8/IpxdatM8G4OD3VWGlp6xIxUGENZlpbob9Ty4VVdC1FIEp0aK6DBscDDjyzy5FB60TuNqg==
 
 "@types/json-schema@^7.0.12":
   version "7.0.12"
@@ -1137,17 +1137,17 @@
     "@typescript-eslint/types" "6.2.1"
     eslint-visitor-keys "^3.4.1"
 
-"@use-gesture/core@10.2.27":
-  version "10.2.27"
-  resolved "https://registry.yarnpkg.com/@use-gesture/core/-/core-10.2.27.tgz#0f24b17c036cd828ba07e3451ff45e2df959c6f5"
-  integrity sha512-V4XV7hn9GAD2MYu8yBBVi5iuWBsAMfjPRMsEVzoTNGYH72tf0kFP+OKqGKc8YJFQIJx6yj+AOqxmEHOmx2/MEA==
+"@use-gesture/core@10.3.0":
+  version "10.3.0"
+  resolved "https://registry.yarnpkg.com/@use-gesture/core/-/core-10.3.0.tgz#9afd3777a45b2a08990a5dcfcf8d9ddd55b00db9"
+  integrity sha512-rh+6MND31zfHcy9VU3dOZCqGY511lvGcfyJenN4cWZe0u1BH6brBpBddLVXhF2r4BMqWbvxfsbL7D287thJU2A==
 
 "@use-gesture/react@^10.2.27":
-  version "10.2.27"
-  resolved "https://registry.yarnpkg.com/@use-gesture/react/-/react-10.2.27.tgz#7fbd50d14449ec5bc49c9b6cfef8a2845f5e0608"
-  integrity sha512-7E5vnWCxeslWlxwZ8uKIcnUZVMTRMZ8cvSnLLKF1NkyNb3PnNiAzoXM4G1vTKJKRhgOTeI6wK1YsEpwo9ABV5w==
+  version "10.3.0"
+  resolved "https://registry.yarnpkg.com/@use-gesture/react/-/react-10.3.0.tgz#180534c821fd635c2853cbcfa813f92c94f27e3f"
+  integrity sha512-3zc+Ve99z4usVP6l9knYVbVnZgfqhKah7sIG+PS2w+vpig2v2OLct05vs+ZXMzwxdNCMka8B+8WlOo0z6Pn6DA==
   dependencies:
-    "@use-gesture/core" "10.2.27"
+    "@use-gesture/core" "10.3.0"
 
 "@vitejs/plugin-react@^4.0.3":
   version "4.0.4"
@@ -1381,9 +1381,9 @@ convert-source-map@^1.7.0:
   integrity sha512-ASFBup0Mz1uyiIjANan1jzLQami9z1PoYSZCiiYW2FczPbenXc45FZdBZLzOT+r6+iciuEModtmCti+hjaAk0A==
 
 core-js@^3.31.1:
-  version "3.32.0"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.32.0.tgz#7643d353d899747ab1f8b03d2803b0312a0fb3b6"
-  integrity sha512-rd4rYZNlF3WuoYuRIDEmbR/ga9CeuWX9U05umAvgrrZoHY4Z++cp/xwPQMvUpBB4Ag6J8KfD80G0zwCyaSxDww==
+  version "3.35.0"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.35.0.tgz#58e651688484f83c34196ca13f099574ee53d6b4"
+  integrity sha512-ntakECeqg81KqMueeGJ79Q5ZgQNR+6eaE8sxGCx62zMbAIj65q+uYvatToew3m6eAGdU4gNZwpZ34NMe4GYswg==
 
 cross-spawn@^7.0.2:
   version "7.0.3"
@@ -1783,9 +1783,9 @@ has-flag@^4.0.0:
   integrity sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==
 
 hotkeys-js@^3.11.2:
-  version "3.12.0"
-  resolved "https://registry.yarnpkg.com/hotkeys-js/-/hotkeys-js-3.12.0.tgz#5534a7ffdba923df489ffbd876b991979beb2c77"
-  integrity sha512-Z+N573ycUKIGwFYS3ID1RzMJiGmtWMGKMiaNLyJS8B1ei+MllF4ZYmKS2T0kMWBktOz+WZLVNikftEgnukOrXg==
+  version "3.13.3"
+  resolved "https://registry.yarnpkg.com/hotkeys-js/-/hotkeys-js-3.13.3.tgz#b0a9f243bb1e9cacb93d3772a9e1f6013c0698a3"
+  integrity sha512-IEiMBNRJZMhWyNDsvww8LYC8vZYyj2/w2GgXPg0ljq/K3SYvOJH6NRMqzF7z2Fwaq2AzKSvmvECREzFleKSeow==
 
 idb@^7.1.1:
   version "7.1.1"
