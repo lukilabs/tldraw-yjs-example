@@ -4,7 +4,7 @@ import { useYjsStore } from "./useYjsStore";
 
 const HOST_URL =
   import.meta.env.MODE === "development"
-    ? "wss://craft-yjs-test.up.railway.app"
+    ? "ws://localhost:1234"
     : "wss://craft-yjs-test.up.railway.app";
 
 export default function YjsExample() {
